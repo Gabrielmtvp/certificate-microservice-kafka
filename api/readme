@@ -1,0 +1,14 @@
+# MicroService with Node.js
+
+- Kafka
+- Node
+
+## Applications
+
+- Api Principal
+- Microservice issue certificate
+
+# What do we know ?
+
+- Rest (latency)
+- Redis / RabbitMQ / Kafka
