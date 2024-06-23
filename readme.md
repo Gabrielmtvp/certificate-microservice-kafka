@@ -28,7 +28,15 @@ Open the project in your IDE, then open a terminal and run the following command
 
 this command will download the necessary images and start a container with your services.
 
-You can make sure it's working by checking the certification server which will show you the arrived messages.
+<img width="1010" alt="Screenshot 2024-06-23 at 18 07 09" src="https://github.com/Gabrielmtvp/certificate-microservice-kafka/assets/23700451/6bb6785e-9f96-4120-947b-3ef0cc1cab96">
+
+Go to API folder and run the command below to start the API express with Kafka server.
+
+`yarn dev`
+
+Go to certification folder and run the command below to start the node application with Kafka server.
+
+`node src/index.js`
 
 ---
 
@@ -38,4 +46,4 @@ As you continue to explore and build, remember that each challenge is an opportu
 
 Happy coding, and may your bets always be in your favor!
 
-Made with ❤️ and a dash of ⚡ by me.
+Made with a dash of ⚡ by me.
