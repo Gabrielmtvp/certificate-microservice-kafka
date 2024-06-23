@@ -1,12 +1,12 @@
 # MicroService - Issue Certificate
 
-## API
+## Overview
 
 This project serves as an API that interfaces with the Issue Certificate microservice. It is responsible for generating certificates and providing them to the main API.
 
-## CERTIFICATION
+## Certification Service
 
-This project serves as a microservice that issue the certificate for the user when it's requested.
+This microservice is responsible for issuing certificates for users upon request.
 
 ## How to use
 
@@ -14,7 +14,11 @@ Follow these steps to get the application running:
 
 # 1. Clone the Repository
 
-Start by cloning the repository to your local machine.
+Start by cloning the repository to your local machine:
+
+`git clone <repository-url>`
+
+`cd <repository-directory>`
 
 # 2. Install Docker
 
@@ -26,24 +30,16 @@ Open the project in your IDE, then open a terminal and run the following command
 
 `docker-compose up`
 
-this command will download the necessary images and start a container with your services.
+This command will download the necessary images and start a container with your services.
 
-<img width="1010" alt="Screenshot 2024-06-23 at 18 07 09" src="https://github.com/Gabrielmtvp/certificate-microservice-kafka/assets/23700451/6bb6785e-9f96-4120-947b-3ef0cc1cab96">
+You can verify it's working by checking the certification server, which will display the received messages.
 
-Go to API folder and run the command below to start the API express with Kafka server.
+# Conclusion
 
-`yarn dev`
-
-Go to certification folder and run the command below to start the node application with Kafka server.
-
-`node src/index.js`
-
----
-
-Thank you for following along with this guide to set up and run the BetGameKotlinApi. I hope this guide has provided you with a clear path to getting your Spring Boot and Kotlin application up and running with Docker.
+Thank you for following this guide to set up and run the Issue Certificate microservice. We hope this guide has provided you with a clear path to getting your NodeJS application up and running with Docker.
 
 As you continue to explore and build, remember that each challenge is an opportunity to learn and grow. Don't hesitate to experiment with the code, try new things, and make the application truly your own.
 
-Happy coding, and may your bets always be in your favor!
+Happy coding, and may your projects always be successful!
 
-Made with a dash of ⚡ by me.
+Made with ❤️ and a dash of ⚡ by me.
