@@ -28,6 +28,8 @@ Open the project in your IDE, then open a terminal and run the following command
 
 this command will download the necessary images and start a container with your services.
 
+You can make sure it's working by checking the certification server which will show you the arrived messages.
+
 ---
 
 Thank you for following along with this guide to set up and run the BetGameKotlinApi. I hope this guide has provided you with a clear path to getting your Spring Boot and Kotlin application up and running with Docker.
