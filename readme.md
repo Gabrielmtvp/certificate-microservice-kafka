@@ -42,10 +42,10 @@ You can verify it's working by checking the certification server, which will dis
 
 # Conclusion
 
-Thank you for following this guide to set up and run the Issue Certificate microservice. We hope this guide has provided you with a clear path to getting your NodeJS application up and running with Docker.
+Thank you for following this guide to set up and run the Issue Certificate microservice. I hope this guide has provided you with a clear path to getting your NodeJS application up and running with Docker.
 
 As you continue to explore and build, remember that each challenge is an opportunity to learn and grow. Don't hesitate to experiment with the code, try new things, and make the application truly your own.
 
 Happy coding, and may your projects always be successful!
 
-Made with ❤️ and a dash of ⚡ by me.
+Made with a dash of ⚡ by me.
